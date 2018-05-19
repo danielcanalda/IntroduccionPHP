@@ -16,8 +16,8 @@
                         $frutas = array('manzana', 'naranja', 'melon', 'platano', 'uvas' );
 
                         $i = 0;
-                        while($i <= 100){
-                          echo $i . "<br/>";
+                        while($i <= count($frutas)){
+                          echo $frutas[$i] . "<br/>";
                           $i++;
                         }
                    ?>
